@@ -3,9 +3,7 @@
 # Author: Dave Bailey (dbisu, @daveisu)
 # Pico and Pico W board support
 
-
 import supervisor
-
 
 import time
 import digitalio
