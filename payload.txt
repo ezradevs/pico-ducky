@@ -1,0 +1,13 @@
+REM This is a sample payload. Remember to name it payload.dd
+
+REM Let's make Rick Astley's "Never Gonna Give You Up" play on the target computer! (For MacOS, easily modifiable for Windows or Linux)
+
+COMMAND SPACE
+
+DELAY 500
+
+STRING https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley
+
+DELAY 500
+
+ENTER
