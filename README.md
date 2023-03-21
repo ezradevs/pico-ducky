@@ -21,6 +21,6 @@ How to Use Duckyscript **(Note that as of now, the Pico Ducky is only compatible
 
 6. Connect to `Network` using the password `password`, and open <http://192.168.4.1:80> on your web browser. You will be met with a simple interface, from which you can view, edit and execute command files called "payloads". 
 
-7. On the web interface, click "New", name the script payload.dd, and copy the content of payload.txt and paste it into the text field under the script title you just entered. Click submit, then press the button to navigate back to home. The moment you hit "Run", the script should execute on the computer the Pico is attached to, and begin playing the infamous rickroll! 
+7. On the web interface, click "New", name the script payload.dd, and copy the content of `payload.txt` and paste it into the text field under the script title you just entered. Click submit, then press the button to navigate back to home. The moment you hit "Run", the script should execute on the computer the Pico is attached to, and begin playing the infamous rickroll! 
 
 8. Have fun creating your own payloads for whatever the task requires, whether that being increasing workflow automation productivity or pranking your friends! ***Please remember that this is a hacking tool, therefore it can be used for malicious intent. Please remember never to use this tool in a harmful manner, as it may violate a law.*** Please feel free to contact me if you need any assistance whatsoever with this project!
