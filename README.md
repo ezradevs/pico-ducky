@@ -11,7 +11,7 @@ How to Use Duckyscript **(Note that as of now, the Pico Ducky is only compatible
 ### Steps:
 1. Download the ZIP file for this repository, and save it in a place you'll remember, or use the shell command `git clone https://github.com/responsivereality/Dbisu-Pico-W-Ducky.git`
 
-2. While holding the **BOOTSEL** button on the Pico, plug it into your computer. It will show up as **RPI-RPI2** on your system, regardless of operating system, as is it now in bootloader mode. 
+2. While holding the `BOOTSEL` button on the Pico, plug it into your computer. It will show up as `RPI-RPI2` on your system, regardless of operating system, as is it now in bootloader mode. 
 
 3. Decompress the ZIP, or open the folder you just cloned, and locate a file called `adafruit-circuitpython-raspberry_pi_pico_w-en_US-8.0.4.uf2`. Drag it into the root of the Pico. It will then disconnect from your computer, and reconnect automatically as **CIRCUITPY**, as it now has the latest compatible CircuitPython firmware installed
 
@@ -24,3 +24,5 @@ How to Use Duckyscript **(Note that as of now, the Pico Ducky is only compatible
 7. On the web interface, click "New", name the script payload.dd, and copy the content of `payload.txt` and paste it into the text field under the script title you just entered. Click submit, then press the button to navigate back to home. The moment you hit "Run", the script should execute on the computer the Pico is attached to, and begin playing the infamous rickroll! 
 
 8. Have fun creating your own payloads for whatever the task requires, whether that being increasing workflow automation productivity or pranking your friends! ***Please remember that this is a hacking tool, therefore it can be used for malicious intent. Please remember never to use this tool in a harmful manner, as it may violate a law.*** Please feel free to contact me if you need any assistance whatsoever with this project!
+
+If you would like to fully wipe your Raspberry Pi Pico and fully restore it to factory settings, plug it in whilst holding the `BOOTSEL` button, and it should come up as `RPI-RPI2`, not `CIRCUITPY`. Drag the `flash_nuke.uf2` file that you cloned earlier onto the Pico, and it will disconnect, reconnecting as a freshly wiped microcontroller. Note that this will only work when the device is in bootloader mode.
